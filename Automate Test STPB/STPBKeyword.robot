@@ -1,6 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
-Resource    ${CURDIR}/HW3Variable.robot
+Resource    ${CURDIR}/STPBVariable.robot
 
 *** Keywords ***
 Open Web Browser

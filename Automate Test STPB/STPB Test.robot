@@ -1,7 +1,7 @@
 *** Settings ***
 Library            SeleniumLibrary
-Resource           ${CURDIR}/HW3Variable.robot
-Resource           ${CURDIR}/HW3Keyword.robot
+Resource           ${CURDIR}/STPBVariable.robot
+Resource           ${CURDIR}/STPBKeyword.robot
 Suite Setup        Set Selenium Speed    0.2
 Test Setup         Open Web Browser
 Test Teardown      Close Browser
